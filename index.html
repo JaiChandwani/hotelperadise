@@ -180,17 +180,29 @@
             <div class="form" id="form">
                 <div class="formBox">
                     <form action="#" class="fromelement" id="inquiery">
+                        <div>
                             <input type="text" placeholder="Name" id="name" required>
-                            <input type="tel" placeholder="Contact number" id="tel" required>
-                            <select name="rooms" id="room" disabled>
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Contact number" id="tel" name="tel"required >
+                        </div>
+                        <div>
+                            <select name="rooms" id="room" disabled >
                                 <option value="#">select Room</option>
                                 <option value="economic">Economic</option>
                                 <option value="Deluxe">Deluxe</option>
                                 <option value="Exclusive">Exclusive</option>
                                 <option value="superDeluxe">Super Deluxe</option>
                             </select>
-                            <input type="date" id="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Date" required>
-                </div>
+                        </div>
+                        <div>
+                            <input
+                            placeholder="Date"
+                            type="text"
+                            onfocus="(this.type='date')"
+                            onblur="(this.type='text')"
+                            id="date" aria-required="true" >
+                        </div>
                 </form>
             </div>
             <div class="formBtn">
