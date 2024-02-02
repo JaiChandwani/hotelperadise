@@ -28,6 +28,6 @@
             var z = document.getElementById("room").value;
             var j = document.getElementById("date").value;
 
-            document.getElementById("form").innerHTML = (`Thank you for choosing us. ${x} <br>Your room has been booked with id: ODR/223023/12314<br>Room Type: ${z}<br>On: ${j}<br>kindly keep this refence id with you It'll be asked at time of check in.<br><br><i>Payment will be done at the time of check in.</i>`);
-            document.getElementById("form").style.textAlign = "center"
+            document.getElementById("formtotxt").innerHTML = (`Thank you for choosing us. ${x} <br>Your room has been booked with id: ODR/223023/12314<br>Room Type: ${z}<br>On: ${j}<br>kindly keep this refence id with you It'll be asked at time of check in.<br><br><i>Payment will be done at the time of check in.</i>`);
+            document.getElementById("formtotxt").style.textAlign = "center"
         }
