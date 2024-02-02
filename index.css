@@ -132,8 +132,8 @@
 .formBtn{
     margin-top: 20px;
     position: relative;
-    left: 34%;
-    /* top:450%; */
+    left: 50%;
+    transform: translate(-12%);
 }
 
 /* footer */
@@ -236,8 +236,12 @@
         /* transform: translate(5%); */
         /* background-color: red; */
     }
-    .formBtn button{
-        margin: 5px;
+    .formBtn {
+       width:26%;
+  margin-top: 0px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
     }
     
     /* footer */
